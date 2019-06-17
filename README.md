@@ -1,4 +1,4 @@
-# lobosvega.github.io
+# lobosvega
 
 PORTAFOLIO
 
