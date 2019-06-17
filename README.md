@@ -1,5 +1,0 @@
-# lobosvega
-
-PORTAFOLIO
-
-FIRST VERSION

@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #2c2f34;
+}
+.content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1200px;
+    padding: 40px 0 40px 0;
+}
+.back-layer {
+    width: 100%;
+    height: calc(100vh);
+    background: url(../images/_104908874_gettyimages-1069284228.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+}
+h1 {
+    font-family: Poppins;
+    line-height: 30px;
+    color: #fff; 
+}
+p {
+    font-family: Poppins;
+    line-height: 30px;
+    color: #fff;
+    font-weight: lighter;
+}
+.back-layer img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
