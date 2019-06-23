@@ -76,3 +76,63 @@ body {
     text-shadow: .1rem .1rem .5rem black;
     padding-bottom: 2rem;
 }
+/*=============== Feature section ==========*/
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.btn-sm {
+    border-width: medium;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+.btn-turqouise {
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+.btn-turqouise:hover,
+.btn-turqouise:focus {
+    border-color: white;
+    background-color: white;
+    color: black;
+}
+.jumbotron {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 1rem 0 3er;
+}
+.h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #656565;
+    margin: 0 auto 2rem;
+}
+.feature {
+    text-align: center;
+}
+.feature .fa-layers {
+    color:black;
+    height: 6rem;
+    margin: 0 auto;
+    width: 3.9rem;
+}
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.feature p {
+    font-size: 1.1rem;
+}

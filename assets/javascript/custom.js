@@ -9,7 +9,7 @@ $(document).ready(function() {
         }
     });
 });
-/*===========Close mobile nav on click==========*/
+/*=========== Close mobile nav on click ==========*/
 $(document).ready(function() {
     $(document).click(function(event) {
         var clickover = $(event.target);
@@ -19,7 +19,7 @@ $(document).ready(function() {
         }
     })
 })
-/*===========Smooooooth scroooling to links==========*/
+/*=========== Smooooooth scroooling to links ==========*/
 $(document).ready(function() {
     $("a").on('click', function(event) {
         if (this.hash !=="") {
@@ -31,5 +31,11 @@ $(document).ready(function() {
                 window.location.hash = hash;
             });
         } //End  if
+    });
+});
+/*=========== bouncing down arrow ==========*/
+$(document).ready(function() {
+    $(window).scroll(function() {
+        $(".arrow").css("opacity", 1 - $(window).scrollTop()/250);
     });
 });
