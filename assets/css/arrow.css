@@ -4,20 +4,21 @@
   animation: bounce 2s infinite;
 }
 .arrow {
+  color: white;
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-left: -20px;
+  margin-left: -10px;
   width: 60px;
-  height: 50px; /*change with size of arrow to make it sit on bottom of page*/
+  height: 100px; /*change with size of arrow to make it sit on bottom of page*/
 }
 a.down-arrow {
   display: block;
   color: #fff; /*arrow color*/
 }
 .down-arrow svg.svg-inline--fa {
-  opacity: .3; /*arrow opacity*/
-  font-size: 2rem; /*arrow size*/
+  opacity: .8; /*arrow opacity*/
+  font-size: 4rem; /*arrow size*/
 }
 .down-arrow svg.svg-inline--fa:hover {
   opacity: .5; /*arrow hover opacity*/
