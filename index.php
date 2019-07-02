@@ -1,5 +1,5 @@
-<?php 
-error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
+<!--<?php
+//error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
 //If the form is submitted
 if(isset($_POST['submitted'])) {
@@ -50,7 +50,7 @@ if(isset($_POST['submitted'])) {
 		$emailSent = true;
 	}
 }
-?>
+?>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>

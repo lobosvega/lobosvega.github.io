@@ -112,13 +112,13 @@ h3.heading {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 1.9rem;
-  }
-  .heading-underline {
+}
+.heading-underline {
     width: 3rem;
     height: .2rem;
     background-color: #1EBBA3;
     margin: 0 auto 2rem;
-  }
+}
 .feature {
     text-align: center;
 }
@@ -140,23 +140,23 @@ h3.heading {
 
 .row.padding {
     padding: 2rem 0 1rem;
-  }
-  img.example-image {
+}
+img.example-image {
     max-width: 100%;
-  }
-  .row.no-padding [class*=col-] {
+}
+.row.no-padding [class*=col-] {
     padding: 0;
-  }
-  .portfolio-item img:hover {
+}
+.portfolio-item img:hover {
     transform: scale(1.3);
     cursor: zoom-in;
-  }
-  .portfolio-item img {
+}
+.portfolio-item img {
     transition: transform .4s ease;
-  }
-  .portfolio-item {
+}
+.portfolio-item {
     overflow: hidden;
-  }
+}
 
 /*============= SKILLS SECTION =============*/
 
@@ -165,67 +165,87 @@ h3.heading {
     font-size: 2.5rem;
     font-weight: 700;
     margin: 1rem 0 .5rem;
-  }
-  .skill p {
+}
+.skill p {
     font-size: 1.1rem;
     text-transform: uppercase;
     font-weight: 700;
-  }
-  /*============= CONTACT SECTION =============*/
+}
+/*============= CONTACT SECTION =============*/
 
 footer {
-    background: url('/assets/images/footer/footer.png') no-repeat;
-    //*background-color: black;*//
     background-size: cover;
     color: white;
-  }
-  footer .row {
+}
+footer .row {
     background-color: black;
     padding: 1rem 2rem 3rem;
-  }
-  footer img {
+    width: 100%!important;
+}
+footer img {
     height: 2rem;
     margin: 1.5rem 0;
-  }
-  footer a {
+}
+footer a {
     color: white;
-  }
-  footer svg.svg-inline--fa {
+}
+footer svg.svg-inline--fa {
     font-size: 1.6rem;
     margin: 1.2rem .5rem 0 0;
-  }
-  footer svg.svg-inline--fa:hover {
+}
+footer svg.svg-inline--fa:hover {
     color: #1ebba3!important;
-  }
-  footer h3 {
+}
+footer h3 {
     text-transform: uppercase;
     margin: 1.5rem 0;
+}
+.ctn-contact {
+    width: 100%;
+    float: left;
+    clear: both;
   }
-  /*--- Contact Form --*/
-  .form-group {
-    margin-bottom: 1.3rem;
-  }
-  .form-control {
-    background-color: black;
+  input[type="text"], input[type="password"], input[type="email"], textarea, select {
+    background: #53595f!important;
     border-radius: 0;
     border: .15rem solid #666b71;
-    color: white!important;
+    color: #c1c3c6!important; /*--- Font Color in Text Area --*/
+    display: block;
+    padding-left: .2rem;
+  }
+  #contact-area input, #contact-area textarea {
+    float: left;
+    padding: .5rem .8rem;
+    width: 100%;
+    margin-bottom: 1.3rem;
+    color: #fff!important;
     font-size: 1.1rem;
   }
-  .form-control:focus {
-    background: #53595f;
-    border: .15rem solid #666b71;
+  #contactName::placeholder, #email::placeholder, #commentsText::placeholder {
+    color: #B2B5B8!important;
   }
-  .form-group input::placeholder,
-  .form-group textarea::placeholder {
-    color: #b2b5b8!important;
+  #contact-us > button {
+      color: #BFC2C4!important;
+      background-color: transparent!important;
+      background-image: none!important;
+      border-color: #BFC2C4!important;
+      border-width: medium!important;
+      border-radius: 0!important;
   }
-  input.btn {
-    cursor: pointer;
+  #contact-us > button:hover {
+      color: #f8f9fa!important;
+      border-color: #f8f9fa!important;
   }
+  /*--- Prevent Waypoints from Altering #hash page reload--*/
+  #team-slider, #clients-slider, .owl-carousel {
+    overflow-x: hidden!important;
+    overflow-y: hidden!important;
+  }
+  /*--- End Contact Form Style --*/
+  
   hr.socket {
-    border-top: .2rem solid #666b71;
     width: 100%;
+    border-top: .2rem solid #666b71;
   }
   
   /*============= TOP SCROLL =============*/
@@ -326,7 +346,6 @@ footer {
     }
   }
   
-  
   /*============ BOOTSTRAP BREAK POINTS:
   
   Extra small (xs) devices (portrait phones, less than 576px)
@@ -345,3 +364,4 @@ footer {
   @media (min-width: 1200px) { ... }
   
   =============*/
+  
