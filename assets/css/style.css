@@ -206,7 +206,7 @@ footer h3 {
     clear: both;
   }
   input[type="text"], input[type="password"], input[type="email"], textarea, select {
-    background: #53595f!important;
+    background: black!important;
     border-radius: 0;
     border: .15rem solid #666b71;
     color: #c1c3c6!important; /*--- Font Color in Text Area --*/
